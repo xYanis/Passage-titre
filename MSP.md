@@ -26,6 +26,8 @@ Les mots de passe sont dans le fichier `/etc/shadow`
 | `passwd`  | Change le mot de passe d'un utilisateur.                          | `passwd utilisateur`                      |
 | `adduser` | Ajoute un nouvel utilisateur au système.                          | `adduser nouvel_utilisateur`              |
 | `deluser` | Supprime un utilisateur du système.                               | `deluser ancien_utilisateur`              |
+| `usermod -L`| Verrouille un compte utilisateur en désactivant son mot de passe.          | `usermod -L utilisateur`             |
+| `usermod -U`| Déverrouille un compte utilisateur.                                        | `usermod -U utilisateur`             |
 | `usermod` | Modifie les informations d'un utilisateur.                        | `usermod -aG sudo utilisateur`            |
 | `chfn`    | Change les informations sur le compte utilisateur (nom complet, etc.). | `chfn utilisateur`                        |
 | `chsh`    | Change le shell par défaut d'un utilisateur.                      | `chsh -s /bin/bash utilisateur`           |
