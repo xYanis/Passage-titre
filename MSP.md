@@ -11,7 +11,7 @@
 
 # 4 Linux
 
-Les utilisateurs sont dans le fichier */etc/passwd
+Les utilisateurs sont dans le fichier */etc/passwd*
 
 
 
