@@ -39,6 +39,11 @@ Les mots de passe sont dans le fichier `/etc/shadow`
 
 Les groupes sont dans le fichier `/etc/group`
 
+![2024-08-06 13_38_47-kali-linux-2024 2-virtualbox-amd64  En fonction  - Oracle VM VirtualBox](https://github.com/user-attachments/assets/1464e85f-d70a-4a24-8a6e-ebc6a03ed284)
+
+
+
+
 | Commande   | Définition                                                        | Exemple                                  |
 |------------|-------------------------------------------------------------------|------------------------------------------|
 | `newgrp`   | Change de groupe courant pour un utilisateur.                     | `newgrp nouveau_groupe`                  |
